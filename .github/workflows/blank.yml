@@ -26,3 +26,6 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: echo Hello, world!
+
+      - name: Echo matrix
+        run: echo ${{ matrix.node }}
